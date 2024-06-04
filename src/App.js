@@ -220,12 +220,12 @@ function App() {
                                   <i className="fas fa-arrow-right" />
                                 </a>
                               </span> */}
-                              <p className="fz-12">Sept 2023 - December 2024</p>
+                              <p className="fz-12">October 2023 - December 2024</p>
                             </div>
                           </div>
                           <div className="item d-flex pb-30 mb-30 bord-thin-bottom">
                             <div className="title">
-                              <h6>Insof IT</h6>
+                              <h6>Insoft IT</h6>
                               <p className="fz-12">MERN Stack Developer</p>
                             </div>
                             <div className="date ml-auto text-right">
