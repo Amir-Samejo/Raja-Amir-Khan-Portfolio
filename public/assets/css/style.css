@@ -9449,9 +9449,9 @@ header.in-box {
     display: none;
   }
 
-  .skills-exp .skill-item {
-    display: block !important;
-  }
+  /* .skills-exp .skill-item {
+    display: initial !important;
+  } */
 
   .skills-exp .skill-item .item {
     margin-bottom: 30px;

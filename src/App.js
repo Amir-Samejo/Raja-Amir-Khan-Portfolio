@@ -299,7 +299,7 @@ function App() {
                           </div>
                           <div className="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
                             <div>
-                              <h6 className="line-height-1"><a href="https://www.theoneclickdigital.com/">Oneclick Digigtal</a></h6>
+                              <h6 className="line-height-1"><a href="https://www.theoneclickdigital.com/">Oneclick Digital</a></h6>
                             </div>
                             {/* <div className="ml-auto">
                               <p className="fz-14">© 2023</p>
