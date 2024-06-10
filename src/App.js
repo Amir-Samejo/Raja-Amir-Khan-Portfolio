@@ -84,7 +84,9 @@ function App() {
                   <div className="row">
                     <div className="col-lg-7">
                       <div className="caption">
-                        <h4 className="fw-400 mb-15">Hello <span className="icon-img-40"><img src="assets/imgs/svg-assets/hi.gif" alt /></span> , I&apos;m Raja Amir Khan
+                        <h4 className="fw-400 mb-15">Hello
+                          <span className="icon-img-40"><img src="assets/imgs/svg-assets/hi.gif" alt="waving hand image" /></span>
+                          , I&apos;m Raja Amir Khan
                         </h4>
                         <h1 className="fz-60">FULL STACK <br />{text} WEB DEVELOPER</h1>
                         <div className="row mt-50">
@@ -209,20 +211,20 @@ function App() {
                           <h2 className="fz-50 d-rotate wow">
                             <span className="rotate-text">My Experience</span>
                           </h2>
-                          <div className="item d-flex pb-30 pt-30 mb-30 mt-4 bord-thin-top bord-thin-bottom">
+                          {/* <div className="item d-flex pb-30 pt-30 mb-30 mt-4 bord-thin-top bord-thin-bottom">
                             <div className="title">
                               <h6>Coderatory</h6>
                               <p className="fz-12">Intern as Frontend Developer</p>
                             </div>
                             <div className="date ml-auto text-right">
-                              {/* <span className="icon">
+                              <span className="icon">
                                 <a href="page-about.html">
                                   <i className="fas fa-arrow-right" />
                                 </a>
-                              </span> */}
+                              </span>
                               <p className="fz-12">October 2023 - December 2024</p>
                             </div>
-                          </div>
+                          </div> */}
                           <div className="item d-flex pb-30 mb-30 bord-thin-bottom">
                             <div className="title">
                               <h6>Insoft IT</h6>
@@ -251,7 +253,13 @@ function App() {
                               <p className="fz-12">2019 - 2021</p>
                             </div>
                           </div> */}
+                          <div className="m-30">
+                            <a href="assets/Raja Amir Khan Resume.pdf" target="blank" className="butn butn-full butn-bord radius-30">
+                              <span className="text">Download Resume</span>
+                            </a>
+                          </div>
                         </div>
+
                       </div>
                     </div>
                   </div>
@@ -292,14 +300,14 @@ function App() {
                           <div className="o-hidden">
                             <div className="img imago wow">
                               <img src="assets/imgs/freelancer/works/1.png" alt className="radius-10" />
-                              <a href="https://www.theoneclickdigital.com/" className="tag">
+                              <a href="https://oneclickdigital-hassan.vercel.app/" className="tag" target='blank'>
                                 <span>Veiw</span>
                               </a>
                             </div>
                           </div>
                           <div className="cont mt-30 d-flex wow fadeIn" data-wow-delay=".4s">
                             <div>
-                              <h6 className="line-height-1"><a href="https://www.theoneclickdigital.com/">Oneclick Digital</a></h6>
+                              <h6 className="line-height-1"><a href="https://oneclickdigital-hassan.vercel.app/" target='blank'>Oneclick Digital</a></h6>
                             </div>
                             {/* <div className="ml-auto">
                               <p className="fz-14">© 2023</p>
@@ -415,18 +423,19 @@ function App() {
                           <a href="#0">+92 310 327 22 90</a>
                         </div>
                         <ul className="rest social-text d-flex mt-60">
-                          <li className="mr-30">
+                          {/* <li className="mr-30">
                             <a href="#0" className="hover-this"><span className="hover-anim">Facebook</span></a>
+                          </li> */}
+
+                          <li className="mr-30">
+                            <a href="https://linkedin.com/in/rajaamirsamejo" className="hover-this" target="blank"><span className="hover-anim" >LinkedIn</span></a>
                           </li>
                           <li className="mr-30">
-                            <a href="https://wa.me/+923103272290" className="hover-this"><span className="hover-anim">Whatsapp</span></a>
+                            <a href="https://wa.me/+923103272290" className="hover-this" target="blank"><span className="hover-anim">Whatsapp</span></a>
                           </li>
-                          <li className="mr-30">
-                            <a href="#0" className="hover-this"><span className="hover-anim">LinkedIn</span></a>
-                          </li>
-                          <li>
+                          {/* <li>
                             <a href="#0" className="hover-this"><span className="hover-anim">Instagram</span></a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -483,9 +492,9 @@ function App() {
               </div>
             </footer>
             {/* ==================== End Footer ==================== */}
-          </div>
-        </div>
-      </div>
+          </div >
+        </div >
+      </div >
 
     </>
   );

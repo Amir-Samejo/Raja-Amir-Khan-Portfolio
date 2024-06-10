@@ -1247,6 +1247,7 @@ img {
   transform: scale(1);
   -webkit-filter: blur(0px);
   filter: blur(0px);
+
 }
 
 /* ====================== [ Start Helper Classes  ] ====================== */
@@ -6904,7 +6905,7 @@ footer .bg-pattern {
   -o-object-fit: cover;
   object-fit: cover;
   -o-object-position: center center;
-  object-position: center center;
+  object-position: center left;
 }
 
 .portfolio.clasic .item .img .tag {
@@ -6913,8 +6914,8 @@ footer .bg-pattern {
   left: 20px;
   padding: 7px 20px;
   border-radius: 30px;
-  background: #fff;
-  color: #000;
+  background: #040404;
+  color: #ffffff;
   font-size: 13px;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
